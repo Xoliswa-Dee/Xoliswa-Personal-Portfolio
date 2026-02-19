@@ -53,7 +53,7 @@ nav, .nav-links{
 nav{
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    padding: 1.5rem;
 }
 
 .nav-links{
@@ -177,10 +177,8 @@ a:hover{
 /*SECTIONS*/
 section{
     padding-top: 4vh;
-    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: fit-content;
 }
 
 .section-container{
@@ -191,14 +189,15 @@ section{
 #profile{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5rem;
-    height: 80vh;
+    min-height: 100vh;
 }
 
 .section_pic-container{
     display: flex;
     height: 400px;
-    width: 40opx;
+    width: 400px;
     margin: auto 0;
 }
 
@@ -220,7 +219,7 @@ section{
 }
 
 .title{
-    font-size: 3 rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -246,7 +245,7 @@ section{
 
 .btn{
     font-weight: 600;
-    transition: all 3ooms ease;
+    transition: all 300ms ease;
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
