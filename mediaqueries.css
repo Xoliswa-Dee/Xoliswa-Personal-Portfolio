@@ -41,9 +41,7 @@
 
 @media screen and (max-width: 600px) {
 
-    * {
-     outline: 1px solid red;
-    }
+    
 
     #profile {
         flex-direction: column;
